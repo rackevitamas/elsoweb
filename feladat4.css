@@ -9,11 +9,13 @@ ul{
     display: flex;
     list-style: none;
     width: 100%;
-    justify-content: space-around;
-
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 li{
     width: 100px;
     height: 100px;
     background-color: rebeccapurple;
+
 }
