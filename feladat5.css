@@ -1,67 +1,62 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-#tarolo {
-    width: 800px;
-    height: 300px;
-    display: flex;
-    flex-direction: column; 
-}
-
-.felso {
-    flex: 1;
-    align-items: flex-start;
-}
-
-#blue {
-    height: 100%;
-    width: 100%; 
-    background-color: rgb(146, 228, 255);
-}
-
-.kozep {
+body {
+    background-color: #f4d7b2;
     display: flex;
     justify-content: space-between;
-    flex: 1; 
+    height: 100vh;
 }
 
-#zold {
-    height: 100%;
-    width: 40%;
-    background-color: red;
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 80vh;
 }
 
-#sarga {
-    height: 100%;
-    width: 20%;
-    background-color: yellow;
-    order: -1; 
+.header {
+    background-color: #00ffff;
+    height: 20%;
+    width: 100%;
 }
 
-#lila {
-    height: 100%;
-    width: 20%;
-    background-color: rebeccapurple;
-}
-
-.also {
+.main-content {
+    display: flex;
     flex: 1;
-    align-items: flex-end;
+    width: 100%;
 }
 
-#darkblue {
-    height: auto;
-    width: 100%; 
-    background-color: rgb(47, 0, 255);
+.sidebar-left {
+    background-color: #f4a300;
+    width: 10%;
 }
 
-.mashova {
-    flex: 1; 
+.main-box {
+    background-color: red;
+    width: 60%;
 }
 
-#black {
-    height: auto;
-    width: 100%; 
+.sidebar-right {
+    background-color: #800080;
+    width: 10%;
+}
+
+.footer {
+    background-color: #0000ff;
+    height: 20%;
+    width: 100%;
+}
+.also{
+    display: flex;
+}
+.black{
     background-color: black;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 20px;
+    width: 20px;
 }
