@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+#tarolo {
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.felso {
+    flex: 1;
+    align-items: flex-start;
+}
+
+#blue {
+    height: 100%;
+    width: 100%; 
+    background-color: rgb(146, 228, 255);
+}
+
+.kozep {
+    display: flex;
+    justify-content: space-between;
+    flex: 1; 
+}
+
+#zold {
+    height: 100%;
+    width: 40%;
+    background-color: red;
+}
+
+#sarga {
+    height: 100%;
+    width: 20%;
+    background-color: yellow;
+    order: -1; 
+}
+
+#lila {
+    height: 100%;
+    width: 20%;
+    background-color: rebeccapurple;
+}
+
+.also {
+    flex: 1;
+    align-items: flex-end;
+}
+
+#darkblue {
+    height: auto;
+    width: 100%; 
+    background-color: rgb(47, 0, 255);
+}
+
+.mashova {
+    flex: 1; 
+}
+
+#black {
+    height: auto;
+    width: 100%; 
+    background-color: black;
+}

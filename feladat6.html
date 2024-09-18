@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWars Pontok</title>
+    <link rel="stylesheet" href="feladat6.css">
+</head>
+<body>
+    <header>
+        <h1>CodeWars Pontok Keresése</h1>
+        <nav>
+            <ul>
+                <li><a href="#total">Összesített Pontok</a></li>
+                <li><a href="#languages">Nyelvek Szerinti Pontok</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <input type="text" id="username" placeholder="Írd be a felhasználónevet" />
+            <button id="search">Keresés</button>
+        </section>
+        <section id="results"></section>
+        <section id="error" style="display: none;">
+            <h2>404: Felhasználó nem található</h2>
+            <p>Kérlek, ellenőrizd a beírt felhasználónevet.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 CodeWars Pontok</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
